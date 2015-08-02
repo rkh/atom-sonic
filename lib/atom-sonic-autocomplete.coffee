@@ -5,6 +5,13 @@ module.exports = provider =
 
   completions:
 
+    synth: [
+      "beep", "blade", "bnoise", "cnoise", "dark_ambience", "dsaw", "dull_bell",
+      "fm", "gnoise", "growl", "hollow", "hoover", "mod_beep", "mod_dsaw",
+      "mod_fm", "mod_pulse", "mod_saw", "mod_sine", "mod_tri", "noise", "piano",
+      "pnoise", "pretty_bell", "prophet", "pulse", "saw", "sine", "square",
+      "subpulse", "supersaw", "tb303", "tri", "zawa"]
+
     fx: [
       "bitcrusher", "bpf", "compressor", "distortion", "echo", "flanger", "hpf"
       "ixi_techno", "krush", "level", "lpf", "nbpf", "nhpf", "nlpf",

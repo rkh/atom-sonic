@@ -1,15 +1,13 @@
 {
   "name": "atom-sonic",
   "main": "./lib/atom-sonic",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Sonic Pi Atom integration",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": [
-      "atom-sonic:play-file",
-      "atom-sonic:play-selection",
-      "atom-sonic:stop"
-    ]
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": { "2.0.0": "provide" }
+    }
   },
   "repository": "https://github.com/rkh/atom-sonic",
   "license": "MIT",

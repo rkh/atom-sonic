@@ -1,8 +1,10 @@
 {CompositeDisposable} = require 'atom'
 osc                   = require 'node-osc'
+provider              = require './atom-sonic-autocomplete'
 
 module.exports = AtomSonic =
   subscriptions: null
+  provide: -> provider
 
   activate: (state) ->
     @subscriptions = new CompositeDisposable

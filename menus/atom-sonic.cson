@@ -1,0 +1,23 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Sonic Pi'
+      'submenu': [
+        {
+          'label': 'Play File'
+          'command': 'atom-sonic:play-file'
+        },
+        {
+          'label': 'Play Selection'
+          'command': 'atom-sonic:play-selection'
+        },
+        {
+          'label': 'Stop Playing'
+          'command': 'atom-sonic:stop'
+        }
+      ]
+    ]
+  }
+]

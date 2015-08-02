@@ -5,7 +5,7 @@ This plugin allows remote controlling [Sonic Pi](http://sonic-pi.net/) via [Atom
 Sonic Pi is fun to play with, but its built-in editor is very rudimentary.
 With this plugin, you can do all the live coding in Atom instead.
 
-![](screenshot.png)
+![sonic-pi-atom-screenshot](https://raw.githubusercontent.com/rkh/atom-sonic/master/screenshot.png)
 
 ## Requirements
 
